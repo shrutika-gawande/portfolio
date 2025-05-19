@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        color: #ffffff;
+        scroll-padding-top: 60px;
+    }  
+}
+@layer components{
+    .contactBtn {
+        @apply  bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg w-max;
+    }
+    .profileImg {
+        @apply w-32 h-32 mx-auto rounded-full mb-4 object-cover
+    }
+    .cardBoxClr {
+        @apply bg-purple-900/20 text-purple-200 rounded-lg py-2 px-4 mb-4
+    }
+    .ui-circle {
+        @apply w-[130px] h-[130px] md:w-[200px] md:h-[200px] origin-top-left rotate-[-36.39deg] rounded-[117px] border-b-2 border-sky-500
+    }
+    .iconsHover {
+        @apply hover:text-purple-400 transition
+    }
+    .transition {
+        @apply transition-transform transform hover:scale-105 duration-300
+    }
+}
+/* Hide scrollbar for all browsers */
+.hide-scrollbar {
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* IE 10+ */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari */
+}
