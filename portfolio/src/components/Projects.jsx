@@ -6,7 +6,7 @@ const projects = [
     description:
       "A full-stack e-commerce platform with responsive product listings, shopping cart, secure checkout, and an admin panel for managing products and orders.",
     github: "#",
-    demo: "https://shopsy-demo.vercel.app",
+    demo: "",
     image: "/illustrations/shopsy.svg",
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     description:
       "A simple and efficient URL shortener app built with Next.js and MongoDB. Users can shorten long URLs into compact links.",
     github: "https://github.com/shrutika-gawande/bitlinks",
-    demo: "https://shopsy-demo.vercel.app",
+    demo: "",
     image: "/illustrations/bitlinks.svg",
   },
 ];
