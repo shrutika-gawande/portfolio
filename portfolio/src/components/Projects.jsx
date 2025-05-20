@@ -14,7 +14,7 @@ const projects = [
     description:
       "A personal portfolio website developed using React.js to showcase projects, skills, and resume. Features modern UI design, and a responsive layout.",
     github: "https://github.com/shrutika-gawande/portfolio",
-    demo: "https://shopsy-demo.vercel.app",
+    demo: "https://portfolio-delta-gold-27.vercel.app/",
     image: "/illustrations/portfolio.svg",
   },
   {
