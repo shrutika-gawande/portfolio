@@ -23,7 +23,7 @@ const Home = () => {
         <div className="flex justify-center">
           <div className="bg-[#0c0c2d] backdrop-blur-lg p-8 rounded-2xl w-[400px] text-center shadow-xl border border-white/10">
             <img 
-              className="profileImg md:w-40 md:h-40" src={data.profileImg} alt="Profile Image"
+              className="profileImg md:w-40 md:h-40 border" src={data.profileImg} alt="Profile Image"
             />
             <div className="cardBoxClr p-4">
               <h2 className="text-white  sm:text-2xl mb-2 text-xl font-semibold">{data.fullname}</h2>
@@ -49,15 +49,15 @@ const Home = () => {
             </div>
 
             {/* Social Icons */}
-            <div className="flex justify-center gap-4 mt-5 flex-wrap">
-              <a href={data.github}><i className=" text-2xl iconsHover">
-                <FaGithub size={25} /></i>
+            <div className="flex justify-center gap-4 mt-6 flex-wrap">
+              <a href={data.github} target="_blank" className=" text-2xl iconsHover">
+                <FaGithub size={25} />
               </a>
-              <a href={data.linkedin}><i className="text-2xl iconsHover">
-                <FaLinkedin size={25} /></i>
+              <a href={data.linkedin} target="_blank" className="text-2xl iconsHover">
+                <FaLinkedin size={25} />
               </a>
-              <a href={data.twitter}><i className="text-2xl iconsHover">
-                <FaXTwitter size={25} /></i>
+              <a href={data.twitter} target="_blank" className="text-2xl iconsHover">
+                <FaXTwitter size={25} />
               </a>
             </div>
           </div>

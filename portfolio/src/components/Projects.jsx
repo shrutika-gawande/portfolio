@@ -1,31 +1,5 @@
 import { FaGithub } from "react-icons/fa"; // Importing GitHub Icon
-
-const projects = [
-  {
-    title: "Shopsy",
-    description:
-      "A full-stack e-commerce platform with responsive product listings, shopping cart, secure checkout, and an admin panel for managing products and orders.",
-    github: "#",
-    demo: "",
-    image: "/illustrations/shopsy.svg",
-  },
-  {
-    title: "Portfolio",
-    description:
-      "A personal portfolio website developed using React.js to showcase projects, skills, and resume. Features modern UI design, and a responsive layout.",
-    github: "https://github.com/shrutika-gawande/portfolio",
-    demo: "https://portfolio-delta-gold-27.vercel.app/",
-    image: "/illustrations/portfolio.svg",
-  },
-  {
-    title: "BitLinks",
-    description:
-      "A simple and efficient URL shortener app built with Next.js and MongoDB. Users can shorten long URLs into compact links.",
-    github: "https://github.com/shrutika-gawande/bitlinks",
-    demo: "",
-    image: "/illustrations/bitlinks.svg",
-  },
-];
+import { projects } from "../utils/data";
 
 export default function Projects() {
   return (
