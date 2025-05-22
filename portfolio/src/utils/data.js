@@ -31,7 +31,7 @@ export const skills = [
     },
     {
       title: "Frameworks",
-      items: ["Next.js", "Bootstrap"]
+      items: ["Next.js", " Express.js", "Bootstrap"]
     },
     {
       title: "Database",

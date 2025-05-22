@@ -1,11 +1,10 @@
-import React from "react";
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { data } from "../utils/data";
 
 const Home = () => {
   return (
     <section id="home" className=" md:max-h-screen flex items-center justify-center gap-10 p-8 ">
-      <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 mt-10 gap-10">
+      <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 mt-5 gap-10">
         
         {/* Left Section */}
         <div className="flex-1 text-center md:text-left z-[1]">
@@ -15,7 +14,7 @@ const Home = () => {
           </h2>
           <p className="text-gray-300 text-lg md:text-lg mb-3">{data.para}</p>
           <p className="text-gray-300 text-lg md:mt-0 mb-5"> {data.tagline}</p>
-          <a href="\resume.pdf">
+          <a href="\Resume.pdf" target="_blank">
           <button className="contactBtn text-xl">My Resume</button></a>
         </div>
 
