@@ -14,7 +14,7 @@ const Home = () => {
           </h2>
           <p className="text-gray-300 text-lg md:text-lg mb-3">{data.para}</p>
           <p className="text-gray-300 text-lg md:mt-0 mb-5"> {data.tagline}</p>
-          <a href="\Resume.pdf" target="_blank">
+          <a href="\resume.pdf" target="_blank">
           <button className="contactBtn text-xl">My Resume</button></a>
         </div>
 

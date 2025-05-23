@@ -27,7 +27,7 @@ const About = () => {
     <div className="container mx-auto mt-16 px-4 text-center">
     <h2 className="text-3xl font-bold mb-10">Technical Proficiency</h2>
 
-    <div className="flex flex-wrap justify-center gap-6">
+    <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 sm:px-10 px-20 grid-cols-1 justify-center gap-6">
         {skills.map((skill, index) => (
         <div
             key={index}

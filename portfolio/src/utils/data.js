@@ -23,7 +23,7 @@ export const data = {
 export const skills = [
     {
       title: "Frontend",
-      items: ["React", "HTML", "CSS", "TailwindCSS"]
+      items: ["React", "HTML+CSS", "TailwindCSS"]
     },
     {
       title: "Backend",
