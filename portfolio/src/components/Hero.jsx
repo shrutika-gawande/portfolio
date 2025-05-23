@@ -8,14 +8,14 @@ const Home = () => {
         
         {/* Left Section */}
         <div className="flex-1 text-center md:text-left z-[1]">
-          <h3 className="text-purple-200 text-lg md:mt-20 mb-2">A Full Stack Developer</h3>
+          <h3 className="text-purple-200 sm:text-lg md:mt-20 mb-2">A Full Stack Developer</h3>
           <h2 className="text-white text-3xl md:text-5xl font-bold mb-4">
           I'M <span className="wave text-purple-400">{data.name}👋</span>
           </h2>
-          <p className="text-gray-300 text-lg md:text-lg mb-3">{data.para}</p>
-          <p className="text-gray-300 text-lg md:mt-0 mb-5"> {data.tagline}</p>
+          <p className="text-gray-300 sm:text-lg mb-3">{data.para}</p>
+          <p className="text-gray-300 sm:text-lg md:mt-0 mb-5"> {data.tagline}</p>
           <a href="\resume.pdf" target="_blank">
-          <button className="contactBtn text-xl">My Resume</button></a>
+          <button className="contactBtn sm:text-xl">My Resume</button></a>
         </div>
 
         {/* Right Section */}
