@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { data } from "../utils/data";
 import { MdEmail, MdPhone, MdLanguage } from "react-icons/md";
+import { FaCode } from "react-icons/fa";
 
 const Contact = () => {
   const form = useRef();
@@ -48,14 +49,18 @@ const Contact = () => {
             <MdEmail size={30} className="text-purple-400" />
             <span>{data.gmail}</span>
           </div>
-          <div className="flex items-center gap-4 bg-[#121235] p-4 rounded-xl shadow-md text-gray-300">
-            <MdPhone size={30} className="text-purple-400" />
-            <span>{data.phone}</span>
-          </div>
-          <div className="flex items-center gap-4 bg-[#121235] p-4 rounded-xl shadow-md text-gray-300">
-            <MdLanguage size={30} className="text-purple-400" />
-            <span>{data.website}</span>
-          </div>
+          <a href={data.leetcode} target="_blank" className="text-purple-400">
+            <div className="flex items-center gap-4 bg-[#121235] p-4 rounded-xl shadow-md text-gray-300">
+              <FaCode size={25} className="text-purple-400" />
+              <span>LeetCode Profile</span>
+            </div>
+          </a>
+          <a href={data.github} target="_blank" className="text-purple-400">
+            <div className="flex items-center gap-4 bg-[#121235] p-4 rounded-xl shadow-md text-gray-300">
+              <MdLanguage size={25} className="text-purple-400" />
+              <span>Explore My Contributions</span>
+            </div>
+          </a>
         </div>
 
         {/* Contact Form */}

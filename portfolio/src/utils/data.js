@@ -6,18 +6,18 @@ export const data = {
     para:"Crafting sleek frontends, building powerful backends — turning ideas into real-world digital solutions, Always pushing boundaries and delivering immersive web experiences.",
     tagline: "Building Web Dreams, One Line of Code at a Time ✨",
     jobTitle: "Full Stack Developer",
-    location: "Akola, Maharashtra",
+    location: "Pune, Maharashtra",
     yearOfExperience: "",
     skills: [
         "ReactJs","NextJs", "NodeJs", "HTML CSS", "Java Script", "REST APIs"
     ],
     gmail:"shrutikaa11s@gmail.com",
     email: "mailto:shrutikaa11s@gmail.com",
-    phone:"7720995989",
     website: "shrutikagawande.com",
     github:"https://github.com/shrutika-gawande",
     linkedin:"https://www.linkedin.com/in/shrutikaa-gawande",
     twitter:"https://x.com/shruh_tikaa",
+    leetcode:"https://leetcode.com/u/shrutika_gawande/",
 };
 
 export const skills = [
@@ -27,7 +27,7 @@ export const skills = [
     },
     {
       title: "Backend",
-      items: ["JavaScript","Node.js", "Express.js"]
+      items: ["JavaScript","Node.js"]
     },
     {
       title: "Frameworks",
@@ -35,7 +35,7 @@ export const skills = [
     },
     {
       title: "Database",
-      items: ["MySQL", "MongoDB" , "PostgreSQL"]
+      items: ["MySQL", "MongoDB"]
     }
   ];
 
