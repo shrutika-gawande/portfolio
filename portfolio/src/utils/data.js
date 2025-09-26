@@ -43,7 +43,7 @@ export const skills = [
   {
     title: "ExploreInn",
     description:
-      "A responsive accommodation platform where users can host their houses or list properties, while travelers can explore stays with filters and review.",
+      "A responsive accommodation platform where users can host their houses or list properties, while travelers can explore stays with filters and review Listings.",
     github: "https://github.com/shrutika-gawande/ExploreInn",
     demo: "https://exploreinn-lgne.onrender.com/listings",
     image: "/illustrations/place.svg",
