@@ -41,12 +41,12 @@ export const skills = [
 
   export const projects = [
   {
-    title: "Shopsy",
+    title: "ExploreInn",
     description:
-      "A full-stack e-commerce platform with responsive product listings, shopping cart, secure checkout, and an admin panel for managing products and orders.",
-    github: "#",
-    demo: "",
-    image: "/illustrations/shopsy.svg",
+      "A responsive accommodation platform where users can host their houses or list properties, while travelers can explore stays with filters and review.",
+    github: "https://github.com/shrutika-gawande/ExploreInn",
+    demo: "https://exploreinn-lgne.onrender.com/listings",
+    image: "/illustrations/place.svg",
   },
   {
     title: "Portfolio",
